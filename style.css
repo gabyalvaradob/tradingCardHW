@@ -1,0 +1,70 @@
+body{
+    background-color: red;
+}
+
+/* the main div */
+.card {
+    margin: auto;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid black;
+    /* border-radius is the curve in the border */
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    background-image: url(back.jpg);
+}
+
+/* the title, here is where the name goes */
+h3 {
+    margin: 0 0 15px 0;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* properties of the image inside the card */
+.image {
+    margin: 15px auto;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* this is to hide the extra in the image, and fits well */
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+/* the div where all the letters will be */
+.info{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#descripcion{
+    background-color: white;
+    font-style: italic;
+}
+
+#list-items{
+    list-style: none;
+    padding-left: 0;
+}
+
+/* the first part of the list, to make it different from the answer */
+#list-items span{
+    font-weight: bold;
+}
+
+/* just for format */
+.indent{
+    padding-left: 20px;
+}
